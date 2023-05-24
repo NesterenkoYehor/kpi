@@ -14,6 +14,7 @@ Rectangle {
         clip: true
         model: TableModel {
             id: tableModel
+            TableModelColumn { display: "area" }
             TableModelColumn { display: "name" }
             TableModelColumn { display: "azot" }
             TableModelColumn { display: "bal" }
@@ -23,6 +24,7 @@ Rectangle {
             TableModelColumn { display: "phosfor" }
             rows: [
                 {
+                    "area": "area",
                     "name": "name",
                     "azot": "azot",
                     "bal": "bal",
